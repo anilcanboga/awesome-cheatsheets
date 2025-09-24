@@ -1,0 +1,282 @@
+<!-- * *******************************************************************************************
+ * HTML5 Cheat sheet by Hackr.io
+ * Source: https://websitesetup.org/wp-content/uploads/2014/02/HTML-CHEAT-SHEET-768x8555.png
+ * ******************************************************************************************* * -->
+
+<!-- Document Summary -->
+
+<!DOCTYPE html>
+<!-- Tarayıcıya HTML5 sürümünün tanınması gerektiğini söyler -->
+<html lang="en"></html>
+<!-- HTML lang özniteliği web'deki metin içeriğinin dilini tanımlamak için kullanılır. Bu bilgi arama motorlarının dile özel sonuçlar döndürmesine yardımcı olur, -->
+<head></head>
+<!-- Sayfaya özel başlık, stiller ve scriptler gibi bilgileri içerir -->
+<title></title>
+<!-- Tarayıcı başlık çubuğunda görünen sayfa başlığı -->
+<body></body>
+<!-- Kullanıcının göreceği içerik -->
+
+<!-- Document Information -->
+
+<base />
+<!-- Bir belgede göreli bağlantıları belirtmek için yararlıdır -->
+<style></style>
+<!-- HTML belgesi için stilleri içerir -->
+<meta />
+<!-- Sayfa, yazar, sayfa açıklaması ve diğer gizli sayfa bilgileri hakkında ek bilgiler içerir -->
+<script></script>
+<!-- Tüm dahili veya harici scriptleri içerir -->
+<link />
+<!-- Harici sayfalar ve stil sayfalarıyla ilişkiler oluşturmak için kullanılır -->
+
+<!-- Document Structure -->
+
+<h1></h1>
+...
+<h6></h6>
+<!-- 1 en belirgin, 6 en az belirgin olmak üzere altı seviye başlık -->
+<p></p>
+<!-- Paragraf metnini düzenlemek için kullanılır -->
+<div></div>
+<!-- Bir sayfa bölümünü belirtmek için kullanılan genel container -->
+<span></span>
+<!-- Inline stil öğeleri oluşturmak için kullanılan inline bölüm veya blok container -->
+<br />
+<!-- Satır sonu oluşturur -->
+<hr />
+<!-- HTML'e bölümsel kesim oluşturur -->
+
+<!-- Text Formatting -->
+
+<strong></strong> and <b></b>
+<!-- Etiket içindeki metni kalın yapar -->
+<em></em> and <i></i>
+<!-- Etiket içindeki metni italik yapmanın alternatif yolu -->
+<del></del>
+<!-- Metin öğesinde üstü çizili oluşturur -->
+<pre></pre>
+<!-- Boşlukları korunmuş önceden biçimlendirilmiş monospace metin bloğu -->
+<blockquote></blockquote>
+<!-- Genellikle alıntılanan uzun alıntı paragraflarını içerir -->
+<abbr></abbr>
+<!-- Kısaltmaları içerirken aynı zamanda tam formu da mevcut kılar -->
+<address></address>
+<!-- İletişim bilgilerini görüntülemek için kullanılır -->
+<code></code>
+<!-- Inline kod parçacıklarını görüntülemek için kullanılır -->
+<q></q>
+<!-- Kısa inline alıntı tanımlar -->
+<sub></sub>
+<!-- Alt simge metni tanımlar -->
+<sup></sup>
+<!-- Üst simge metni tanımlar -->
+<kbd></kbd>
+<!-- Metni klavye girişi olarak belirtir -->
+<small></small>
+<!-- Küçük metin belirtir -->
+<ins></ins>
+<!-- Belgeye eklenmiş metni tanımlar -->
+
+<!-- Links Formatting -->
+
+<a href="url"></a>
+<!-- Bir web sitesinin harici veya dahili sayfalarına bağlantı oluşturmak için kullanılır -->
+<a href="mailto:email@example.com"></a>
+<!-- E-posta adresine bağlantı oluşturmak için kullanılır -->
+<a href="name"></a>
+<!-- Bir belge öğesine bağlantı oluşturmak için kullanılır -->
+<a href="#name"></a>
+<!-- Belirli div öğesine bağlantı oluşturmak için kullanılır -->
+<a href="tel://####-####-##"></a>
+<!-- Telefon numaralarını görüntülemek ve tıklanabilir yapmak için kullanılır -->
+
+<!-- Image Formatting -->
+
+<img src="url" alt="text" />
+<!-- Bir web sayfasında resimleri görüntülemek için kullanılır, src="url" resim kaynağının bağlantısını içerir ve alt="" resim görüntülenmediğinde gösterilecek alternatif metni içerir -->
+
+<!-- List Formatting -->
+
+<ol></ol>
+<!-- Öğelerde numaralar bulunan sıralı listeler oluşturmak için kullanılır -->
+<ul></ul>
+<!-- Öğelerde numaralar bulunan sırasız listeler görüntülemek için kullanılır -->
+<li></li>
+<!-- Sıralı ve sırasız listelerin içindeki liste öğelerini içerir -->
+<dl></dl>
+<!-- Liste öğesi tanımlarını içerir -->
+<dt></dt>
+<!-- Gövde içeriğiyle inline tek terim tanımı -->
+<dd></dd>
+<!-- Tanımlanan terimin açıklaması -->
+
+<!-- Forms Formatting and Attributes -->
+
+<form action="url"></form>
+<!-- Form öğesi bir form oluşturur ve action="" ziyaretçi formu gönderdiğinde verinin nereye gönderileceğini belirtir -->
+
+<!-- Supported attributes -->
+method="somefunction()"
+<!-- Form verisinin nasıl gönderileceğini belirleyen istek türünü (GET, POST... vb.) içerir -->
+enctype=""
+<!-- Veri web sunucusuna gönderildiğinde nasıl kodlanacağını belirtir. -->
+autocomplete=""
+<!-- Otomatik tamamlama işlevinin etkin olup olmadığını belirtir -->
+novalidate
+<!-- Formun doğrulanıp doğrulanmayacağını belirtir -->
+accept-charset=""
+<!-- Form gönderiminde karakter kodlamasını tanımlar -->
+target=""
+<!-- Form gönderiminde bilginin nerede görüntüleneceğini söyler. Olası değerler: '_blank', '_self', '_parent', '_top' -->
+
+<fieldset disabled="disabled"></fieldset>
+<!-- Formdaki tüm alanların grubunu tanımlar -->
+<label for=""></label>
+<!-- Kullanıcıya alanda ne yazması gerektiğini söyleyen basit alan etiketi -->
+<legend></legend>
+<!-- Form legend'i fieldset öğesi için başlık görevi görür -->
+
+<input type="text/email/number/color/date" />
+<!-- Input, kullanıcının çeşitli türde veri girebileceği giriş alanıdır -->
+
+<!-- Supported attributes -->
+name=""
+<!-- Formun adını açıklar -->
+width=""
+<!-- Bir giriş alanının genişliğini belirtir -->
+value=""
+<!-- Giriş bilgi alanının değerini açıklar -->
+size=""
+<!-- Giriş öğesi genişliğini karakter cinsinden belirtir -->
+maxlength=""
+<!-- Maksimum giriş karakter sayısını belirtir -->
+required=""
+<!-- Form gönderilmeden önce giriş alanının doldurulmasının gerekli olup olmadığını belirtir -->
+step=""
+<!-- Giriş alanının yasal sayı aralıklarını tanımlar -->
+
+<textarea name="" id="" cols="30" rows="10">
+      <!-- Daha uzun mesajlar için büyük giriş metin alanı belirtir -->
+</textarea>
+
+<select name=""></select>
+<!-- Kullanıcıların çeşitli seçeneklerden seçim yapabileceği açılır kutu tanımlar -->
+
+<!-- Supported attributes -->
+name=""
+<!-- Açılır kombinasyon kutusu için ad -->
+size=""
+<!-- Mevcut seçenek sayısını belirtir -->
+multiple
+<!-- Birden fazla seçenek seçimine izin verir -->
+required
+<!-- Form gönderilmeden önce bir değer seçilmesini gerektirir -->
+autofocus
+<!-- Sayfa yüklendiğinde açılır kutunun otomatik olarak odaklanacağını belirtir -->
+<optgroup></optgroup>
+<!-- Mevcut seçeneklerin tüm gruplandırmasını belirtir -->
+<option value=""></option>
+<!-- Açılır listeden mevcut seçeneklerden birini tanımlar -->
+<button></button>
+<!-- Formu göndermek için tıklanabilir düğme -->
+
+<!-- Tables Formatting -->
+
+<table></table>
+<!-- Tüm tablo ile ilgili içeriği tanımlar ve içerir -->
+<caption></caption>
+<!-- Tablonun ne olduğu ve ne içerdiği hakkında açıklama -->
+<thead></thead>
+<!-- Tablo başlıkları, altındaki her sütunda tanımlanan bilgi türünü içerir -->
+<tbody></tbody>
+<!-- Tablonun verilerini veya bilgilerini içerir -->
+<tfoot></tfoot>
+<!-- Tablo alt bilgisini tanımlar -->
+<tr></tr>
+<!-- Tablo satırında yer alacak bilgileri içerir -->
+<th></th>
+<!-- Tek tablo başlığında yer alacak bilgileri içerir -->
+<td></td>
+<!-- Tablo hücresinde gerçek bilgileri içerir -->
+<colgroup></colgroup>
+<!-- Biçimlendirme amaçları için tek veya birden fazla sütunu gruplar -->
+<col />
+<!-- Tablo içinde tek bilgi sütunu tanımlar -->
+
+<!-- Objects and iFrames -->
+
+<object data=""></object>
+<!-- Ses, video, PDF'ler, resimler dahil olmak üzere dosya türünü tanımlar ve gömülür -->
+
+<!-- Supported attributes -->
+type=""
+<!-- Gömülen medya türünü açıklar -->
+height=""
+<!-- Nesnenin piksel cinsinden yüksekliğini açıklar -->
+width=""
+<!-- Nesnenin piksel cinsinden genişliğini açıklar -->
+usemap=""
+<!-- Bu, nesnedeki istemci tarafı resim haritasının adıdır -->
+
+<iframe src="" frameborder="0"></iframe>
+<!-- Harici bilgileri gömülmesine izin veren inline çerçeve içerir -->
+<embed src="" type="" />
+<!-- Harici uygulama veya eklenti için container görevi görür -->
+src=""
+<!-- Gömülü harici dosyanın kaynağı -->
+width=""
+<!-- iframe'in piksel cinsinden genişliğini açıklar -->
+
+<!-- HTML5 New Tags -->
+
+<header></header>
+<!-- Bir belge veya bölüm için başlık bloğunu tanımlar -->
+<footer></footer>
+<!-- Bir belge veya bölüm için alt bilgi bloğunu tanımlar -->
+<main></main>
+<!-- Bir belgenin ana içeriğini açıklar -->
+<article></article>
+<!-- Bir belge içindeki makaleyi tanımlar -->
+<aside></aside>
+<!-- Belge kenar çubuğunda bulunan içeriği belirtir -->
+<section></section>
+<!-- Bir belgenin bölümünü tanımlar -->
+<details></details>
+<!-- Kullanıcının görüntüleyebileceği veya gizleyebileceği ek bilgileri açıklar -->
+<dialog></dialog>
+<!-- Bir iletişim kutusu veya pencere -->
+<figure></figure>
+<!-- Resimler, diyagramlar veya çizimler içeren bağımsız içerik bloğu -->
+<figcaption></figcaption>
+<!-- Bir şekli açıklayan başlık -->
+<mark></mark>
+<!-- Sayfa içeriğinde vurgulanmış metnin bir bölümünü görüntüler -->
+<nav></nav>
+<!-- Belgede kullanıcı için navigasyon bağlantıları -->
+<menuitem></menuitem>
+<!-- Kullanıcının açılır menüden çıkarabileceği belirli menü öğesi -->
+<meter></meter>
+<!-- Bilinen bir dizide skaler ölçümü açıklar -->
+<progress></progress>
+<!-- Genellikle bir ilerleme çubuğu olan görevin ilerlemesini görüntüler -->
+<rp></rp>
+<!-- Ruby notasyonlarını desteklemeyen tarayıcılardaki metni açıklar -->
+<rt></rt>
+<!-- Doğu Asya tipografisi karakter detaylarını görüntüler -->
+<ruby></ruby>
+<!-- Doğu Asya tipografisi için açıklamaları tanımlar -->
+<summary></summary>
+<!-- Details öğesi için görünür başlık içerir -->
+<bdi></bdi>
+<!-- Metnin bazı bölümlerini diğer metinden farklı yönde biçimlendirmenize yardımcı olur -->
+<time></time>
+<!-- Zamanı ve tarihi tanımlar -->
+<wbr />
+<!-- İçerik içinde satır sonu -->
+
+<!-- Some other useful tags -->
+
+<canvas></canvas>
+<!-- JavaScript yardımıyla web sayfasında 2D şekiller çizmenize izin verir -->
+<map></map>
+<!-- Bir resim haritası belirtir -->
